@@ -1,0 +1,5 @@
+Rafael, 10, 10 ,5 ,5
+felipe, 10, 10 ,8 ,5
+felipi jr, 10, 10 ,8 ,5
+marcos, 5, 8 , 6, 8
+joao, 8, 5, 9, 7

@@ -1,0 +1,93 @@
+comandos pyton:
+
+"str= string" >>> converte uma variavel int em uma string, podendo concatenar, somando dois textos.
+
+"print(type(soma))" >>> mostra qual é o tipo de variavel.
+
+para mudar o tipo de uma variavel, basta colocar o tipo (ex: int) na frete da variavel que desejasse mudar.
+
+para comentar mais de uma linha seleciona as linhas desejadas e pressiona "ctrl" mais "/".
+
+"format" é usado para fazer a concatenação sem precisar indicar qual a variavel.
+ 
+"input" é usado para interagir com o usuario 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Condicional - comando IF e comando ELSE
+
+a = int(input('selecione um valor: '))
+b = int(input('selecione um valor: '))
+resto_a = a % 2
+resto_b = b % 2
+if resto_a == 0:
+    print('esse valor (a) é par')
+else:
+    print('esse valor (a) é impar')
+if resto_b == 0:
+    print('esse valor (b) é par')
+else:
+    print('o valor (b) é impar')
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Condicional - comando IF,comando ELSE e comando ELIF
+
+a = int (input('primeiro valor: '))
+b = int (input('segundo valor: '))
+c = int (input('terceiro valor: '))
+if a > b and a > c:
+     print('o maior é o primeiro valor {}'.format(a))
+elif b > a and b > c:
+     print('o maior é o segundo valor {}'.format(b))
+else:
+     print('o maior é o terceiro valor {}'. format(c))
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Operadores lógicos (AND,OR,NOT)
+
+a = int(input('selecione um valor: '))
+b = int(input('selecione um valor: '))
+resto_a = a % 2
+resto_b = b % 2
+if resto_a == 0 or not resto_b > 0:
+    print('esse valor é par')
+else:
+    print('nenhum valor par foi digitado')
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+COMANDOS DE REPETIÇÂO:
+
+comando for
+
+comando while
+
+comando range
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+LISTA 
+
+append >>> adiciona um elemento a lista 
+pop >>> retira o ultimo elemento da lista "caso não seja selecionado nenhum elemento"
+para remover um elemento conhecido basta escrever o comando "remove" e escrever o elemento que se deseja retirar
+para ver o maior elemento da lista só colocar o comando print(max(lista))
+||    ||   menor ||        ||         || print(min(lista))
+Para ordenar a lista de forma ordenada comando "sort()"
+para ordenar a lista de forma reversa usar o comando "reverse()"
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+aula 7
+
+comando class >>> estabele comandos que precisão ser chamados
+init_(self) >>> não pode ficar vazio. não precisa estar no codigo pra o self rodar como seleção de comandos. Pode usar o comando "pass" para não deixar o espaço abaixo do init_(self) vazio
+def = definição, sempre separando por virgula e dando um nome. Precisa receber um parameto. precisa colocar o comando return 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+aula 8 
+
+Sempre usar if __name__ == '__main__' quando estiver fazendo testes no codigo pois esse comando só irar permitir que o codigo ligado a ele seja executado quando vim do modulo principal (ex: aula7) e não por alguem de fora (ex: prompt) 
